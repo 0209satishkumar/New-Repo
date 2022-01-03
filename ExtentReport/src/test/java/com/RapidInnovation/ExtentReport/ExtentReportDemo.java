@@ -33,6 +33,7 @@ public class ExtentReportDemo {
 		driver.get("https://main.d1wxtput80cmif.amplifyapp.com/");
 		driver.getTitle();
 		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getPageSource());
 		driver.close();
 		extent.flush();	
 	}
