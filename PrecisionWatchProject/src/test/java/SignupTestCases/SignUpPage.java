@@ -79,7 +79,7 @@ public class SignUpPage {
 	{
 		extent.createTest("Test Case 3 = Enter your mobile number");     
 		WebElement mbl=driver.findElement(By.id("mobile"));
-		mbl.sendKeys("Hadapsar,Pune,Maharashtra-411028");
+		mbl.sendKeys("7498863242");
 	}
 
 	@AfterTest
