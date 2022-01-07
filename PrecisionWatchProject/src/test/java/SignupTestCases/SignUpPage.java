@@ -50,7 +50,7 @@ public class SignUpPage {
 	{
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
-		options.addExtensions(new File("D:\\CodeZero2Pi\\Automation\\PrecisionWatchProject\\metamask.com.crx"));
+		options.addExtensions(new File("C:\\Users\\panka\\git\\New-Repo\\New-Repo\\PrecisionWatchProject\\metamask.com.crx"));
 		driver = new ChromeDriver(options);
 		driver.get("https://main.d1wxtput80cmif.amplifyapp.com/signup");
 		driver.manage().window().maximize();
@@ -58,7 +58,7 @@ public class SignUpPage {
 	}
 
 
-	@Test
+	@Test(priority = 1)
 	public void EnterName() throws IOException 
 	{
 		extent.createTest("Test case 1 = Enter your name");
@@ -66,7 +66,7 @@ public class SignUpPage {
 		Name.sendKeys("Rohit Punekar");
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void EnterAddress() throws InterruptedException 
 	{
 		extent.createTest("Test Case 2 = Enter your address");     
@@ -74,7 +74,7 @@ public class SignUpPage {
 		Addr.sendKeys("Hadapsar,Pune,Maharashtra-411028");
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void EnterMobile() throws InterruptedException 
 	{
 		extent.createTest("Test Case 3 = Enter your mobile number");     
