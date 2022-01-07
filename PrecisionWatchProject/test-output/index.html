@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\panka\AppData\Local\Temp\testng-eclipse-1751873791\testng-customsuite.xml</span>
+                    <span>C:\Users\panka\AppData\Local\Temp\testng-eclipse-417769138\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="RapidInnovation.homepage" class="method navigator-link" hash-for-method="basePageNavigation">basePageNavigation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="SignupTestCases.SignUpPage" class="method navigator-link" hash-for-method="EnterAddress">EnterAddress</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="RapidInnovation.homepage" class="method navigator-link" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="SignupTestCases.SignUpPage" class="method navigator-link" hash-for-method="EnterMobile">EnterMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="SignupTestCases.SignUpPage" class="method navigator-link" hash-for-method="EnterName">EnterName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,21 +132,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">RapidInnovation.homepage</span>
+              <span class="class-name">SignupTestCases.SignUpPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="basePageNavigation">
-                  </a> <!-- basePageNavigation -->
-                  <span class="method-name">basePageNavigation</span>
+                  <a name="EnterAddress">
+                  </a> <!-- EnterAddress -->
+                  <span class="method-name">EnterAddress</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="getTitle">
-                  </a> <!-- getTitle -->
-                  <span class="method-name">getTitle</span>
+                  <a name="EnterMobile">
+                  </a> <!-- EnterMobile -->
+                  <span class="method-name">EnterMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterName">
+                  </a> <!-- EnterName -->
+                  <span class="method-name">EnterName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\panka\AppData\Local\Temp\testng-eclipse-1751873791\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\panka\AppData\Local\Temp\testng-eclipse-417769138\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +170,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;RapidInnovation.homepage&quot;/&gt;
+      &lt;class name=&quot;SignupTestCases.SignUpPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,20 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getTitle')
-data.setCell(0, 2, 'RapidInnovation.homepage')
-data.setCell(0, 3, 3013);
+data.setCell(0, 1, 'EnterAddress')
+data.setCell(0, 2, 'SignupTestCases.SignUpPage')
+data.setCell(0, 3, 276);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'basePageNavigation')
-data.setCell(1, 2, 'RapidInnovation.homepage')
-data.setCell(1, 3, 103);
+data.setCell(1, 1, 'EnterMobile')
+data.setCell(1, 2, 'SignupTestCases.SignUpPage')
+data.setCell(1, 3, 199);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'EnterName')
+data.setCell(2, 2, 'SignupTestCases.SignUpPage')
+data.setCell(2, 3, 120);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 595 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,30 +253,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">RapidInnovation.homepage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">SignupTestCases.SignUpPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">start</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">startTest</span>
-                <span class="method-start">22652 ms</span>
+                <span class="method-start">31086 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">basePageNavigation</span>
-                <span class="method-start">22892 ms</span>
+                <span class="method-name">EnterAddress</span>
+                <span class="method-start">31774 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">getTitle</span>
-                <span class="method-start">22999 ms</span>
+                <span class="method-name">EnterMobile</span>
+                <span class="method-start">32056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EnterName</span>
+                <span class="method-start">32258 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">26032 ms</span>
+                <span class="method-start">32381 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">26686 ms</span>
+                <span class="method-start">33161 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

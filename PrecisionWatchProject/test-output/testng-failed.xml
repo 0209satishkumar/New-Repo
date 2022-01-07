@@ -3,16 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RapidInnovation.homepage">
+      <class name="SignupTestCases.SignUpPage">
         <methods>
-          <include name="start"/>
-          <include name="basePageNavigation"/>
-          <include name="endTest"/>
-          <include name="close"/>
-          <include name="getTitle"/>
           <include name="startTest"/>
+          <include name="endTest"/>
+          <include name="EnterMobile"/>
+          <include name="EnterName"/>
+          <include name="close"/>
+          <include name="start"/>
+          <include name="EnterAddress"/>
         </methods>
-      </class> <!-- RapidInnovation.homepage -->
+      </class> <!-- SignupTestCases.SignUpPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

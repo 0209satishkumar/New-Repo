@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-06T16:31:30 IST" name="Default suite" finished-at="2022-01-06T16:31:57 IST" duration-ms="27200">
+  <suite started-at="2022-01-07T13:21:24 IST" name="Default suite" finished-at="2022-01-07T13:21:58 IST" duration-ms="33603">
     <groups>
     </groups>
-    <test started-at="2022-01-06T16:31:30 IST" name="Default test" finished-at="2022-01-06T16:31:57 IST" duration-ms="27200">
-      <class name="RapidInnovation.homepage">
-        <test-method is-config="true" signature="start()[pri:0, instance:RapidInnovation.homepage@3cebbb30]" started-at="2022-01-06T16:31:30 IST" name="start" finished-at="2022-01-06T16:31:53 IST" duration-ms="22635" status="PASS">
+    <test started-at="2022-01-07T13:21:24 IST" name="Default test" finished-at="2022-01-07T13:21:58 IST" duration-ms="33603">
+      <class name="SignupTestCases.SignUpPage">
+        <test-method is-config="true" signature="start()[pri:0, instance:SignupTestCases.SignUpPage@2b50150]" started-at="2022-01-07T13:21:24 IST" name="start" finished-at="2022-01-07T13:21:55 IST" duration-ms="31047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="startTest()[pri:0, instance:RapidInnovation.homepage@3cebbb30]" started-at="2022-01-06T16:31:53 IST" name="startTest" finished-at="2022-01-06T16:31:53 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:SignupTestCases.SignUpPage@2b50150]" started-at="2022-01-07T13:21:55 IST" name="startTest" finished-at="2022-01-07T13:21:56 IST" duration-ms="643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="basePageNavigation()[pri:0, instance:RapidInnovation.homepage@3cebbb30]" started-at="2022-01-06T16:31:53 IST" name="basePageNavigation" finished-at="2022-01-06T16:31:53 IST" duration-ms="103" status="PASS">
+        <test-method signature="EnterAddress()[pri:0, instance:SignupTestCases.SignUpPage@2b50150]" started-at="2022-01-07T13:21:56 IST" name="EnterAddress" finished-at="2022-01-07T13:21:56 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method signature="getTitle()[pri:0, instance:RapidInnovation.homepage@3cebbb30]" started-at="2022-01-06T16:31:53 IST" name="getTitle" finished-at="2022-01-06T16:31:56 IST" duration-ms="3013" status="PASS">
+        </test-method> <!-- EnterAddress -->
+        <test-method signature="EnterMobile()[pri:0, instance:SignupTestCases.SignUpPage@2b50150]" started-at="2022-01-07T13:21:56 IST" name="EnterMobile" finished-at="2022-01-07T13:21:57 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:RapidInnovation.homepage@3cebbb30]" started-at="2022-01-06T16:31:56 IST" name="endTest" finished-at="2022-01-06T16:31:57 IST" duration-ms="651" status="PASS">
+        </test-method> <!-- EnterMobile -->
+        <test-method signature="EnterName()[pri:0, instance:SignupTestCases.SignUpPage@2b50150]" started-at="2022-01-07T13:21:57 IST" name="EnterName" finished-at="2022-01-07T13:21:57 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterName -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:SignupTestCases.SignUpPage@2b50150]" started-at="2022-01-07T13:21:57 IST" name="endTest" finished-at="2022-01-07T13:21:57 IST" duration-ms="777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:RapidInnovation.homepage@3cebbb30]" started-at="2022-01-06T16:31:57 IST" name="close" finished-at="2022-01-06T16:31:57 IST" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:SignupTestCases.SignUpPage@2b50150]" started-at="2022-01-07T13:21:57 IST" name="close" finished-at="2022-01-07T13:21:58 IST" duration-ms="425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- RapidInnovation.homepage -->
+      </class> <!-- SignupTestCases.SignUpPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
