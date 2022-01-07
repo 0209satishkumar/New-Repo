@@ -1,4 +1,4 @@
-package SignupTestCases;
+package TestCases;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -46,11 +46,12 @@ public class SignUpPage {
 	}
 
 	@BeforeTest
-	public void start() throws IOException
+	public void start() throws IOException, InterruptedException
 	{
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addExtensions(new File("C:\\Users\\panka\\git\\New-Repo\\New-Repo\\PrecisionWatchProject\\metamask.com.crx"));
+		Thread.sleep(3000);
 		driver = new ChromeDriver(options);
 		driver.get("https://main.d1wxtput80cmif.amplifyapp.com/signup");
 		driver.manage().window().maximize();
@@ -81,7 +82,47 @@ public class SignUpPage {
 		WebElement mbl=driver.findElement(By.id("mobile"));
 		mbl.sendKeys("7498863242");
 	}
-
+	
+	@Test(priority = 4)
+	public void EnterEmail() throws IOException 
+	{
+		extent.createTest("Test case 4 = Enter your Email id");
+		WebElement Email=driver.findElement(By.id("email"));
+		Email.sendKeys("punekarrohit49@gmail.com");
+	}
+	
+	@Test(priority = 5)
+	public void EnterWalletAddress() throws IOException 
+	{
+		extent.createTest("Test case 5 = Enter your Wallet Address");
+		WebElement wallet=driver.findElement(By.id("walletAddress"));
+		wallet.sendKeys("0xA1b7B3C428b76BAb680D73F1bF7b4AB1Bcf1d06d");
+	}
+	
+	@Test(priority = 6)
+	public void EnterPassword() throws IOException 
+	{
+		extent.createTest("Test case 6 = Enter your password");
+		WebElement pswd=driver.findElement(By.id("password"));
+		pswd.sendKeys("Rohit@123");
+	}
+	
+	@Test(priority = 7)
+	public void ConfirmPassword() throws IOException 
+	{
+		extent.createTest("Test case 7 = Confirm your password");
+		WebElement Cpswd=driver.findElement(By.id("c_password"));
+		Cpswd.sendKeys("Rohit@123");
+	}
+/*	
+	@Test(priority = 8)
+	public void CreateAccount() throws IOException 
+	{
+		extent.createTest("Test case 8 = Click on CREATE ACCOUNT button");
+		WebElement submit=driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div/div[2]/form/button"));
+		submit.sendKeys("Rohit@123");
+	}
+*/	
 	@AfterTest
 	public void close()
 	{

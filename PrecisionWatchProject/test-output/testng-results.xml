@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-07T16:05:19 IST" name="Default suite" finished-at="2022-01-07T16:05:51 IST" duration-ms="32094">
+  <suite started-at="2022-01-07T17:08:40 IST" name="Default suite" finished-at="2022-01-07T17:09:17 IST" duration-ms="36826">
     <groups>
     </groups>
-    <test started-at="2022-01-07T16:05:19 IST" name="Default test" finished-at="2022-01-07T16:05:51 IST" duration-ms="32094">
-      <class name="SignupTestCases.SignUpPage">
-        <test-method is-config="true" signature="start()[pri:0, instance:SignupTestCases.SignUpPage@6bb7cce7]" started-at="2022-01-07T16:05:19 IST" name="start" finished-at="2022-01-07T16:05:48 IST" duration-ms="28964" status="PASS">
+    <test started-at="2022-01-07T17:08:40 IST" name="Default test" finished-at="2022-01-07T17:09:17 IST" duration-ms="36826">
+      <class name="TestCases.SignUpPage">
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:08:40 IST" name="start" finished-at="2022-01-07T17:09:15 IST" duration-ms="34561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="startTest()[pri:0, instance:SignupTestCases.SignUpPage@6bb7cce7]" started-at="2022-01-07T16:05:48 IST" name="startTest" finished-at="2022-01-07T16:05:49 IST" duration-ms="666" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:15 IST" name="startTest" finished-at="2022-01-07T17:09:15 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="EnterName()[pri:1, instance:SignupTestCases.SignUpPage@6bb7cce7]" started-at="2022-01-07T16:05:49 IST" name="EnterName" finished-at="2022-01-07T16:05:49 IST" duration-ms="182" status="PASS">
+        <test-method signature="EnterName()[pri:1, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:15 IST" name="EnterName" finished-at="2022-01-07T17:09:15 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterName -->
-        <test-method signature="EnterAddress()[pri:2, instance:SignupTestCases.SignUpPage@6bb7cce7]" started-at="2022-01-07T16:05:49 IST" name="EnterAddress" finished-at="2022-01-07T16:05:49 IST" duration-ms="537" status="PASS">
+        <test-method signature="EnterAddress()[pri:2, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:15 IST" name="EnterAddress" finished-at="2022-01-07T17:09:16 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterAddress -->
-        <test-method signature="EnterMobile()[pri:3, instance:SignupTestCases.SignUpPage@6bb7cce7]" started-at="2022-01-07T16:05:49 IST" name="EnterMobile" finished-at="2022-01-07T16:05:50 IST" duration-ms="274" status="PASS">
+        <test-method signature="EnterMobile()[pri:3, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:16 IST" name="EnterMobile" finished-at="2022-01-07T17:09:16 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterMobile -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:SignupTestCases.SignUpPage@6bb7cce7]" started-at="2022-01-07T16:05:50 IST" name="endTest" finished-at="2022-01-07T16:05:50 IST" duration-ms="717" status="PASS">
+        <test-method signature="EnterEmail()[pri:4, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:16 IST" name="EnterEmail" finished-at="2022-01-07T17:09:16 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterEmail -->
+        <test-method signature="EnterWalletAddress()[pri:5, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:16 IST" name="EnterWalletAddress" finished-at="2022-01-07T17:09:16 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterWalletAddress -->
+        <test-method signature="EnterPassword()[pri:6, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:16 IST" name="EnterPassword" finished-at="2022-01-07T17:09:16 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPassword -->
+        <test-method signature="ConfirmPassword()[pri:7, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:16 IST" name="ConfirmPassword" finished-at="2022-01-07T17:09:16 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPassword -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:16 IST" name="endTest" finished-at="2022-01-07T17:09:17 IST" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:SignupTestCases.SignUpPage@6bb7cce7]" started-at="2022-01-07T16:05:50 IST" name="close" finished-at="2022-01-07T16:05:51 IST" duration-ms="649" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.SignUpPage@6253c26]" started-at="2022-01-07T17:09:17 IST" name="close" finished-at="2022-01-07T17:09:17 IST" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- SignupTestCases.SignUpPage -->
+      </class> <!-- TestCases.SignUpPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -5,13 +5,16 @@
     <classes>
       <class name="SignupTestCases.SignUpPage">
         <methods>
+          <include name="ConfirmPassword"/>
           <include name="startTest"/>
+          <include name="EnterPassword"/>
           <include name="endTest"/>
           <include name="EnterMobile"/>
           <include name="EnterName"/>
-          <include name="close"/>
           <include name="start"/>
           <include name="EnterAddress"/>
+          <include name="EnterWalletAddress"/>
+          <include name="EnterEmail"/>
         </methods>
       </class> <!-- SignupTestCases.SignUpPage -->
     </classes>
