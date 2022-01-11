@@ -3,20 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SignupTestCases.SignUpPage">
+      <class name="TestCases.LoginPage">
         <methods>
-          <include name="ConfirmPassword"/>
-          <include name="startTest"/>
           <include name="EnterPassword"/>
-          <include name="endTest"/>
-          <include name="EnterMobile"/>
-          <include name="EnterName"/>
+          <include name="startTest"/>
           <include name="start"/>
-          <include name="EnterAddress"/>
-          <include name="EnterWalletAddress"/>
           <include name="EnterEmail"/>
+          <include name="endTest"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- SignupTestCases.SignUpPage -->
+      </class> <!-- TestCases.LoginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

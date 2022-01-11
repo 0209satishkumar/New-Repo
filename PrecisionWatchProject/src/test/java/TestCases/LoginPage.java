@@ -64,7 +64,7 @@ public class LoginPage {
 	{
 		extent.createTest("Test case 1 = Enter your Email ID");
 		WebElement Email=driver.findElement(By.id("email"));
-		Email.sendKeys("Punekarrohit49@gmail.com");
+		Email.sendKeys("bhagyasri.qa25@gmail.com");
 	}
 
 	@Test(priority = 2)
@@ -72,17 +72,17 @@ public class LoginPage {
 	{
 		extent.createTest("Test Case 2 = Enter your password");     
 		WebElement pswd=driver.findElement(By.id("password"));
-		pswd.sendKeys("Rohit@123");
+		pswd.sendKeys("Watch+123");
 	}
-/*
+
 	@Test(priority = 3)
 	public void Submit() throws InterruptedException 
 	{
 		extent.createTest("Test Case 3 = Click on the GET START");     
 		WebElement submit=driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div/div[2]/form/button"));
-		submit.sendKeys("7498863242");
+		submit.click();
 	}
-*/	
+	
 	@AfterTest
 	public void close()
 	{

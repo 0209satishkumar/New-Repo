@@ -51,7 +51,7 @@ public class SignUpPage {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addExtensions(new File("C:\\Users\\panka\\git\\New-Repo\\New-Repo\\PrecisionWatchProject\\metamask.com.crx"));
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		driver = new ChromeDriver(options);
 		driver.get("https://main.d1wxtput80cmif.amplifyapp.com/signup");
 		driver.manage().window().maximize();
@@ -120,7 +120,7 @@ public class SignUpPage {
 	{
 		extent.createTest("Test case 8 = Click on CREATE ACCOUNT button");
 		WebElement submit=driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div/div[2]/form/button"));
-		submit.sendKeys("Rohit@123");
+		submit.click();
 	}
 */	
 	@AfterTest
